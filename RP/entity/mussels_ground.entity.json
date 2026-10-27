@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "yashh:mussels_ground",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/mussels"
+      },
+      "geometry": {
+        "default": "geometry.yashh_mussels_ground"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "scripts": {
+        "scale": "0.6"
+      },
+      "spawn_egg": {
+        "base_color": "#1d1f24",
+        "overlay_color": "#f2a93b"
+      }
+    }
+  }
+}

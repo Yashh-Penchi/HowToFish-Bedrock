@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "How to Fish - Crab Boss & Mussels RP",
+    "description": "Limited resource pack: Crab Boss and Mussels assets only.",
+    "uuid": "b4da851a-3862-4fc2-97c8-1c18ba9c2f53",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b1897c1c-de3d-4936-beeb-7c524cf398a1",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

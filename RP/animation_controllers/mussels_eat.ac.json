@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.yashh_mussels.eat": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "eat": "c.is_first_person && v.using"
+            }
+          ]
+        },
+        "eat": {
+          "animations": [
+            "eat_first_person"
+          ],
+          "transitions": [
+            {
+              "default": "!c.is_first_person || !v.using"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

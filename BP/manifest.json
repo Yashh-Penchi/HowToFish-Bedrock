@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "How to Fish - Crab Boss & Mussels BP",
+    "description": "Limited behavior pack: Crab Boss and Mussels features only.",
+    "uuid": "485e4673-885e-4259-91be-0db827b0d42e",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "22882414-68ce-4392-aa59-45371458f89b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "eaf26b6c-592b-45b5-960a-a1499288760d",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b4da851a-3862-4fc2-97c8-1c18ba9c2f53",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    }
+  ]
+}

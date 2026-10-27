@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "yashh:crab_boss",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/crab_boss"
+      },
+      "geometry": {
+        "default": "geometry.yashh_crab_boss"
+      },
+      "animations": {
+        "idle": "animation.yashh_crab_boss.idle",
+        "walk": "animation.yashh_crab_boss.walk",
+        "attack1": "animation.yashh_crab_boss.attack1",
+        "attack2": "animation.yashh_crab_boss.attack2",
+        "attack3": "animation.yashh_crab_boss.attack3",
+        "attack4": "animation.yashh_crab_boss.attack4",
+        "die": "animation.yashh_crab_boss.die",
+        "controller": "controller.animation.yashh_crab_boss"
+      },
+      "scripts": {
+        "pre_animation": [
+          "v.st = q.property('yashh:boss_attack');",
+          "v.st = v.st > 0 ? v.st : q.mark_variant;"
+        ],
+        "animate": [
+          "controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#8c1c13",
+        "overlay_color": "#e8a54b"
+      }
+    }
+  }
+}

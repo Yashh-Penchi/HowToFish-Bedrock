@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "yashh_fishing_shop",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "yashh_mussels": {
+      "textures": "textures/items/mussels"
+    },
+    "yashh_crab_boss": {
+      "textures": "textures/items/crab_boss"
+    },
+    "yashh_boos_meat": {
+      "textures": "textures/items/boos_meat"
+    }
+  }
+}

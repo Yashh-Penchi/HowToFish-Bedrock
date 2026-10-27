@@ -1,0 +1,313 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "yashh:crab_boss",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "yashh:boss_attack": {
+          "type": "int",
+          "default": 0,
+          "range": [
+            0,
+            6
+          ],
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "yashh:mv0": {
+        "minecraft:mark_variant": {
+          "value": 0
+        }
+      },
+      "yashh:mv1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "yashh:mv2": {
+        "minecraft:mark_variant": {
+          "value": 2
+        }
+      },
+      "yashh:mv3": {
+        "minecraft:mark_variant": {
+          "value": 3
+        }
+      },
+      "yashh:mv4": {
+        "minecraft:mark_variant": {
+          "value": 4
+        }
+      },
+      "yashh:mv5": {
+        "minecraft:mark_variant": {
+          "value": 5
+        }
+      },
+      "yashh:mv6": {
+        "minecraft:mark_variant": {
+          "value": 6
+        }
+      }
+    },
+    "events": {
+      "yashh:anim_0": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv0"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_1": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv1"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_2": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv2"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_3": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv3"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_4": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv4"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_5": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv5"
+              ]
+            }
+          }
+        ]
+      },
+      "yashh:anim_6": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "yashh:mv0",
+                "yashh:mv1",
+                "yashh:mv2",
+                "yashh:mv3",
+                "yashh:mv4",
+                "yashh:mv5",
+                "yashh:mv6"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "yashh:mv6"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "crab_boss"
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true,
+        "generates_bubbles": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "drowning",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "suffocation",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:health": {
+        "value": 360,
+        "max": 360
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/crab_boss.json"
+      },
+      "minecraft:collision_box": {
+        "width": 5.0,
+        "height": 2.5
+      },
+      "minecraft:attack": {
+        "damage": 0
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.2
+      },
+      "minecraft:movement.amphibious": {
+        "max_turn": 20
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": true,
+        "can_walk": true,
+        "can_swim": true,
+        "can_sink": true,
+        "can_breach": false,
+        "can_path_over_water": false,
+        "avoid_water": false,
+        "can_pass_doors": false
+      },
+      "minecraft:variable_max_auto_step": {
+        "base_value": 2.0,
+        "controlled_value": 2.0,
+        "jump_prevented_value": 2.0
+      },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:persistent": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    }
+  }
+}

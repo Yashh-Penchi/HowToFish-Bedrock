@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "yashh:crab_boss",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/crab_boss",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.yashh_crab_boss_item"
+      },
+      "animations": {
+        "hold_first_person": "animation.yashh_crab_boss_item.hold_first_person",
+        "hold_third_person": "animation.yashh_crab_boss_item.hold_third_person"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "hold_first_person": "c.is_first_person"
+          },
+          {
+            "hold_third_person": "!c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.yashh_item"
+      ]
+    }
+  }
+}

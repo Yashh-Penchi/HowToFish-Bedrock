@@ -1,0 +1,1537 @@
+{
+  "namespace": "hud",
+  "yashh_boss_bar": {
+    "type": "panel",
+    "size": [
+      213.0,
+      42.0
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [
+      0,
+      0
+    ],
+    "layer": 31,
+    "controls": [
+      {
+        "bar": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "layer": 2,
+          "controls": [
+            {
+              "base": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_frame",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "layer": 1
+              }
+            },
+            {
+              "fill1": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_1",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  32.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.30s' * #hud_title_text_string) - ('%.29s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill2": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_2",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  35.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.31s' * #hud_title_text_string) - ('%.30s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill3": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_3",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  39.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.32s' * #hud_title_text_string) - ('%.31s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill4": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_4",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  42.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.33s' * #hud_title_text_string) - ('%.32s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill5": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_5",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  45.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.34s' * #hud_title_text_string) - ('%.33s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill6": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_6",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  48.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.35s' * #hud_title_text_string) - ('%.34s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill7": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_7",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  51.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.36s' * #hud_title_text_string) - ('%.35s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill8": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_8",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  55.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.37s' * #hud_title_text_string) - ('%.36s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill9": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_9",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  58.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.38s' * #hud_title_text_string) - ('%.37s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill10": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_10",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  61.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.39s' * #hud_title_text_string) - ('%.38s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill11": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_11",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  64.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.40s' * #hud_title_text_string) - ('%.39s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill12": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_12",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  67.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.41s' * #hud_title_text_string) - ('%.40s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill13": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_13",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  70.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.42s' * #hud_title_text_string) - ('%.41s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill14": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_14",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  74.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.43s' * #hud_title_text_string) - ('%.42s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill15": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_15",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  77.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.44s' * #hud_title_text_string) - ('%.43s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill16": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_16",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  80.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.45s' * #hud_title_text_string) - ('%.44s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill17": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_17",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  83.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.46s' * #hud_title_text_string) - ('%.45s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill18": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_18",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  86.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.47s' * #hud_title_text_string) - ('%.46s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill19": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_19",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  89.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.48s' * #hud_title_text_string) - ('%.47s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill20": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_20",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  93.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.49s' * #hud_title_text_string) - ('%.48s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill21": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_21",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  96.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.50s' * #hud_title_text_string) - ('%.49s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill22": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_22",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  99.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.51s' * #hud_title_text_string) - ('%.50s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill23": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_23",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  102.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.52s' * #hud_title_text_string) - ('%.51s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill24": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_24",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  105.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.53s' * #hud_title_text_string) - ('%.52s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill25": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_25",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  109.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.54s' * #hud_title_text_string) - ('%.53s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill26": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_26",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  112.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.55s' * #hud_title_text_string) - ('%.54s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill27": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_27",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  115.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.56s' * #hud_title_text_string) - ('%.55s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill28": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_28",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  118.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.57s' * #hud_title_text_string) - ('%.56s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill29": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_29",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  121.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.58s' * #hud_title_text_string) - ('%.57s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill30": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_30",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  124.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.59s' * #hud_title_text_string) - ('%.58s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill31": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_31",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  128.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.60s' * #hud_title_text_string) - ('%.59s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill32": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_32",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  131.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.61s' * #hud_title_text_string) - ('%.60s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill33": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_33",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  134.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.62s' * #hud_title_text_string) - ('%.61s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill34": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_34",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  137.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.63s' * #hud_title_text_string) - ('%.62s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill35": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_35",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  140.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.64s' * #hud_title_text_string) - ('%.63s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill36": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_36",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  144.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.65s' * #hud_title_text_string) - ('%.64s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill37": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_37",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  147.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.66s' * #hud_title_text_string) - ('%.65s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill38": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_38",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  150.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.67s' * #hud_title_text_string) - ('%.66s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill39": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_39",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  153.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.68s' * #hud_title_text_string) - ('%.67s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill40": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_40",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  156.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.69s' * #hud_title_text_string) - ('%.68s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill41": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_41",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  159.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.70s' * #hud_title_text_string) - ('%.69s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill42": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_42",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  163.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.71s' * #hud_title_text_string) - ('%.70s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill43": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_43",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  166.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.72s' * #hud_title_text_string) - ('%.71s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill44": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_44",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  169.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.73s' * #hud_title_text_string) - ('%.72s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill45": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_45",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  172.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.74s' * #hud_title_text_string) - ('%.73s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill46": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_46",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  175.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.75s' * #hud_title_text_string) - ('%.74s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill47": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_47",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  179.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.76s' * #hud_title_text_string) - ('%.75s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill48": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_48",
+                "size": [
+                  3.5,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  182.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.77s' * #hud_title_text_string) - ('%.76s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill49": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_49",
+                "size": [
+                  4.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  185.0,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.78s' * #hud_title_text_string) - ('%.77s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "fill50": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_fill_50",
+                "size": [
+                  3.0,
+                  5.5
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  188.5,
+                  23.5
+                ],
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_name": "#hud_title_text_string"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(((('%.79s' * #hud_title_text_string) - ('%.78s' * #hud_title_text_string))) = 'f')",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "top": {
+                "type": "image",
+                "texture": "textures/ui/yashh_boss_frame_top",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "layer": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": {
+          "type": "image",
+          "texture": "textures/ui/yashh_boss_text",
+          "size": [
+            102.4,
+            5.285161290322581
+          ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            9.6,
+            10.8
+          ],
+          "layer": 5
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(((('%.29s' * #hud_title_text_string) - ('%.28s' * #hud_title_text_string))) = 'v')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "yashh_boss_anchor": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 24,
+    "controls": [
+      {
+        "yashh_boss_bar@hud.yashh_boss_bar": {}
+      },
+      {
+        "blood1": {
+          "type": "image",
+          "texture": "textures/ui/yashh_blood_1",
+          "size": [
+            "118%",
+            "118%"
+          ],
+          "layer": 25,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((('%.28s' * #hud_title_text_string) - ('%.27s' * #hud_title_text_string))) = 'a')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "blood2": {
+          "type": "image",
+          "texture": "textures/ui/yashh_blood_2",
+          "size": [
+            "118%",
+            "118%"
+          ],
+          "layer": 25,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((('%.28s' * #hud_title_text_string) - ('%.27s' * #hud_title_text_string))) = 'b')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "blood3": {
+          "type": "image",
+          "texture": "textures/ui/yashh_blood_3",
+          "size": [
+            "118%",
+            "118%"
+          ],
+          "layer": 25,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((('%.28s' * #hud_title_text_string) - ('%.27s' * #hud_title_text_string))) = 'c')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "blood4": {
+          "type": "image",
+          "texture": "textures/ui/yashh_blood_4",
+          "size": [
+            "118%",
+            "118%"
+          ],
+          "layer": 25,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((('%.28s' * #hud_title_text_string) - ('%.27s' * #hud_title_text_string))) = 'd')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
